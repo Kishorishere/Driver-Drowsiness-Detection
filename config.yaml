@@ -1,0 +1,16 @@
+# Dataset path
+path: C:\Users\anjan\OneDrive\Desktop\YOLO BLUEPRINT\data  # Use forward slashes or double backslashes
+
+# Dataset splits
+train: train\images  # relative to 'path'
+val: val\images      # relative to 'path'
+test: test\images    # optional, for testing only
+
+# Number of classes
+nc: 4  # Number of classes
+
+# Class names
+names:
+  ['yawning','drowsy eyes','not yawning','eyes open']
+
+
